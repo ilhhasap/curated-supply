@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Held",
+      "hasCanvas": false,
+      "bodyTextLen": 792,
+      "bodyTextHash": "9a51e44560766c137cf5da3a2148aa2d2da42a04420e76ef6037ba6e36ed0698",
+      "bodyTextPrefix": "Browse Products Brands Lists People Sign in Browse By category S",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Held",
+      "hasCanvas": false,
+      "bodyTextLen": 748,
+      "bodyTextHash": "033855d2650117dc02e3b324b63a37a7558eee4ea857debf73246b70e91a19d6",
+      "bodyTextPrefix": "Browse By category See all Tech 1 Audio 4 Workspace 4 Carry 2 Ho",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

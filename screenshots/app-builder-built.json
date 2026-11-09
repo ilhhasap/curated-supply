@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Held",
+      "hasCanvas": false,
+      "bodyTextLen": 784,
+      "bodyTextHash": "4a407dfd0062331708144207aa652fef1f98e249b4dfec6b8cb200420039e5b3",
+      "bodyTextPrefix": "Browse Products Brands Lists People Browse By category See all T",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Held",
+      "hasCanvas": false,
+      "bodyTextLen": 748,
+      "bodyTextHash": "033855d2650117dc02e3b324b63a37a7558eee4ea857debf73246b70e91a19d6",
+      "bodyTextPrefix": "Browse By category See all Tech 1 Audio 4 Workspace 4 Carry 2 Ho",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text replaced (similar length, page start changed)"
+  ]
+}

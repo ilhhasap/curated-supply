@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist";
+
+@theme {
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+  --color-paper: #f2f2f2;
+  --color-card: #ffffff;
+  --color-ink: #141414;
+  --color-quiet: #8d8d8d;
+  --color-line: #e4e4e4;
+  --color-photo: #ffffff;
+  --radius-card: 1.25rem;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    margin: 0;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.5;
+    overflow-x: clip;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  summary:focus-visible {
+    outline: 1px solid var(--color-ink);
+    outline-offset: 3px;
+  }
+  ::selection {
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .is-aim {
+    outline: 1px solid var(--color-ink);
+    outline-offset: 4px;
+  }
+  .is-noted {
+    outline: 1px dashed var(--color-quiet);
+    outline-offset: 4px;
+  }
+}
